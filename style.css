@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: rgb(235, 234, 234);
+  font-family: "Montserrat", serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+div {
+  font-weight: bold;
+  font-family: "Montserrat", serif;
+  background-color: white;
+  width: 40%;
+  border: none;
+  border-radius: 10px;
+  padding: 5% 50px 7% 50px;
+  margin: auto;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.header {
+  width: 90%;
+  border-radius: 10px;
+  padding: 30px 50px;
+  background-color: rgb(59, 2, 60);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+p {
+  padding-top: 2%;
+}
+
+.name {
+  width: 100%;
+  height: 24px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(74, 73, 73, 0.15);
+}
+
+.name:focus {
+  outline: 2px solid rgb(59, 2, 60);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(59, 2, 60);
+  font-size: 10px;
+  padding: 12px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin: 10px auto;
+  width: fit-content;
+}
+
+.button:hover {
+  background-color: rgb(148, 4, 148);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.reason textarea {
+  font-weight: 500;
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  box-shadow: 1px 1px 10px rgba(74, 73, 73, 0.15);
+  font-family: "Montserrat", serif;
+  font-size: 12px;
+  outline: none;
+}
+
+.reason textarea:focus {
+  outline: 2px solid rgb(59, 2, 60);
+}
+
+#animal {
+  width: 100%;
+  height: 24px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(74, 73, 73, 0.15);
+}
+
+#animal:focus {
+  outline: 2px solid rgb(59, 2, 60);
+}
+
+@media (min-width: 320px) {
+  .header {
+    width: 80%;
+    padding: 30px 20px;
+  }
+
+  body {
+    font-size: 12px;
+  }
+}
